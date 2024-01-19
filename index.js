@@ -44,7 +44,9 @@ function init() {
         console.log(data);
         writeToFile('sample-README-3.md', data);
     })
-    
+    .catch((err) => {
+        console.error(err);
+    });
 }
 
 // function call to initialize program
