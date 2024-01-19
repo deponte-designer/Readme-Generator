@@ -60,6 +60,21 @@ const questions = ([
         name: "starred",
         message: "How can users show their support through a starred project?"
     },
+    {
+        type: "input",
+        name: "tests",
+        message: "How to test the project?"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "How can users reach you?"
+    },
+    {
+        type: "input",
+        name: "githubUser",
+        message: "What's your GitHub username?"
+    },
 
 
 ]);
