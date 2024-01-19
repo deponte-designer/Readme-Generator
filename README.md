@@ -4,64 +4,93 @@
 This project is a professional README generator designed to streamline the process of creating comprehensive README files for your GitHub projects. It uses JavaScript ES6 syntax and Node.js with Inquirer module to automate the generation of README files with detailed information about your project.
 
 ## Table of Contents
-- [User Story](#userStory)
+- [User Story](#user-story)
 - [Installation](#installation)
 - [Screenshots](#screenshots)
+- [Video](#video)
 - [Usage](#usage)
 - [Credits](#credits)
 - [Deployment](#deployment)
-- [How to Contribute](#contribute)
+- [How to Contribute](#how-to-contribute)
   - [Contributions](#contributions)
-  - [Starred Project](#starred)
+  - [Starred Project](#starred-project)
 - [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
 - [Badges](#badges)
 
 ## User Story
-As A developer, 
-<br> I WANT a tool that can quickly generate a well-structured README for my GitHub projects, 
-<br> SO THAT this tool allow me to input project details and preferences, and it should generate a README file that includes important sections like installation, usage, contribution guidelines, and licensing information.
+**As A** developer,  
+**I WANT** a tool that can quickly generate a well-structured README for my GitHub projects,  
+**SO THAT** this tool allow me to input project details and preferences, and it should generate a README file that includes important sections like installation, usage, contribution guidelines, and licensing information.
 
 ## Installation
-Users can install the project by cloning the repository from GitHub and running 'npm install' to install the required dependencies.
+Users can install the project by cloning the repository from GitHub and running `npm install` to install the required dependencies.
 
 ## Screenshots
-Unfortunately, screenshots are not included in this project.
+*Unfortunately, screenshots are not included in this project.*  
 
 ## Video
-
-A walkthrough video that demonstrates the functionality of the README generator: [Demo](https://drive.google.com/file/d/1HzDzS-Vo9k6ExBXWw-6eU2q1EfwJzyvO/view)
+A walkthrough video that demonstrates the functionality of the README generator: [Demo](https://drive.google.com/file/d/1HzDzS-Vo9k6ExBXWw-6eU2q1EfwJzyvO/view "Demonstration video")
 
 
 ## Usage
-To use the README generator, run the command 'node index.js' in the terminal. Follow the prompts to provide information about your project, and the generator will create a README file based on your input.
+
+To use the README generator, run the command `node index.js` in the terminal. Follow the prompts to provide information about your project, and the generator will create a README file based on your input.  
+
+**Enhancing Terminal Commands for Efficient Workflow:**
+
+1. Install dependencies:
+```bash
+npm install
+```
+2. Run the application:
+```bash
+node index.js
+```
+3. Stop the application:
+```bash
+^C
+```
+4. Clear the terminal:
+```bash
+clear
+```
+
 
 ## Credits
 * [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) 
 * [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ## Deployment
-The project GitHub Repository link: [README Generator](https://github.com/deponte-designer/Readme-Generator)
+> This project is deployed and accessible at the following URLs:
+> 
+> - [GitHub Repository](https://github.com/deponte-designer/Readme-Generator "Readme-Generator GitHub Repository"): Visit the repository for project details, including a comprehensive README.
+> - [Demo video](https://drive.google.com/file/d/1HzDzS-Vo9k6ExBXWw-6eU2q1EfwJzyvO/view "Demonstration video"): Visit this link to watch the walkthrough video that demonstrates the functionality of the README generator.
+> 
 
 ## How to Contribute
-To contribute to this project, follow these steps: 1. Fork the repository. 2. Create a new branch for your feature or bug fix. 3. Make your changes and submit a pull request.
+To contribute to this project, follow these steps: 
+1. Fork the repository. 
+2. Create a new branch for your feature or bug fix. 
+3. Make your changes and submit a pull request.
 
 ### Contributions
 This project was developed by a single contributor [dePonte](https://github.com/deponte-designer).
 
 ### Starred Project
-Your support by clicking on the star icon located at the top right of the project page and adding it to your favourites list would be greatly appreciated!
+⭐ Your support by clicking on the star icon located at the top right of the project page and adding it to your favourites list would be greatly appreciated!
 
 ## Tests
-Unfortunately, the command 'npm test' is currently not available for this project.
+Unfortunately, the command `npm test` is currently not available for this project.
 
 ## Questions
 > For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer). 
 
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br> Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+Copyright &copy; 2024 [dePonte](https://github.com/deponte-designer)
 
 
 ## Badges
