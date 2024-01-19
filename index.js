@@ -39,7 +39,12 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+    .then((data) => {
+        console.log(data);
+        writeToFile('sample-README-3.md', data);
+    })
+    
 }
 
 // function call to initialize program
