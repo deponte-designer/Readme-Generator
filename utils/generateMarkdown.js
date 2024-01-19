@@ -32,7 +32,7 @@ function generateMarkdown(data) {
       'ISC': 'ISC',
       'LPPL-1.3c': 'LaTeX Project Public License v1.3c',
       'MS-PL': 'Microsoft Public License',
-      'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+      'MIT': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)',
       'MPL-2.0': 'Mozilla Public License 2.0',
       'OSL-3.0': 'Open Software License 3.0',
       'PostgreSQL': 'PostgreSQL License',

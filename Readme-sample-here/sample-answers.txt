@@ -6,7 +6,7 @@ Working with ES6 & Node.js: Professional README Generator
 
 
 ? Briefly describe your project.
-This project is a professional README generator designed to streamline the process of creating comprehensive README files for your GitHub projects. It uses ES6 syntax and Node.js to automate the generation of README files with detailed information about your project.
+This project is a professional README generator designed to streamline the process of creating comprehensive README files for your GitHub projects. It uses JavaScript ES6 syntax and Node.js with Inquirer module to automate the generation of README files with detailed information about your project.
 
 
 ? Summarise the user story.
@@ -26,7 +26,7 @@ To use the README generator, run the command 'node index.js' in the terminal. Fo
 
 
 ? Any credits or acknowledgments to include?
-*[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) *[Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) * [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 
 ? What's your deployed project GitHub Repository link?
@@ -50,7 +50,7 @@ Unfortunately, the command 'npm test' is currently not available for this projec
 
 
 ? How can users reach you?
-For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer).
+> For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer).
 
 
 ? What's your GitHub username?
