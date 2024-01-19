@@ -1,7 +1,8 @@
-const fs = require("fs");
-const path = require('path');
-const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+// Import required Node.js modules
+const fs = require("fs"); // File system module for file operations
+const path = require('path'); // Path module for working with file paths
+const inquirer = require("inquirer"); // Inquirer module for interactive command-line prompts
+const generateMarkdown = require("./utils/generateMarkdown"); // Custom module to generate markdown content
 
 // array of questions for user
 const questions = ([
@@ -129,8 +130,6 @@ const questions = ([
             'Netlify'
         ]
     },
-
-
 ]);
 
 // function to write README file
@@ -153,17 +152,17 @@ function writeToFile(fileName, data) {
     });
 }
 
-// function to initialize program
+// function to initialise program
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
             console.log(data);
-            writeToFile('sample-README-3.md', data);
+            writeToFile('sample-README.md', data);
         })
         .catch((err) => {
             console.error(err);
         });
 }
 
-// function call to initialize program
+// Call the init function to start the process
 init();

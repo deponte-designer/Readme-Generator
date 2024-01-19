@@ -141,4 +141,5 @@ ${badges}
 `;
 }
 
+// Export the generateMarkdown function to make it accessible to other modules
 module.exports = generateMarkdown;
