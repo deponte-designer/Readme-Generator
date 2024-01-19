@@ -137,11 +137,18 @@ const questions = ([
 function writeToFile(fileName, data) {
     const readme = generateMarkdown(data);
 
-    fs.writeFile(`./readme-sample-here/${fileName}`, readme, (err) => {
+    // create a new dir if there isn't one
+    fs.mkdir('./readme-sample-here', { recursive: true }, (err) => {
         if (err) {
             console.error(err);
         } else {
-            console.log('Success! Your sample-README.md has been generated!');
+            fs.writeFile(`./readme-sample-here/${fileName}`, readme, (err) => {
+                if (err) {
+                    console.error(err);
+                } else {
+                    console.log('Success! Your sample-README.md has been generated!');
+                }
+            });
         }
     });
 }
@@ -149,13 +156,13 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then((data) => {
-        console.log(data);
-        writeToFile('sample-README-3.md', data);
-    })
-    .catch((err) => {
-        console.error(err);
-    });
+        .then((data) => {
+            console.log(data);
+            writeToFile('sample-README-3.md', data);
+        })
+        .catch((err) => {
+            console.error(err);
+        });
 }
 
 // function call to initialize program
