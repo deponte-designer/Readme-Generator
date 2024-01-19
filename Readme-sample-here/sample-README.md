@@ -32,7 +32,8 @@ Unfortunately, screenshots are not included in this project.
 To use the README generator, run the command 'node index.js' in the terminal. Follow the prompts to provide information about your project, and the generator will create a README file based on your input.
 
 ## Credits
-* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) * [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) 
+* [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 
 ## Deployment
 The project GitHub Repository link: [README Generator](https://github.com/deponte-designer/Readme-Generator)
