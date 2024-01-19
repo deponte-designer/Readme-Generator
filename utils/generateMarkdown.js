@@ -74,6 +74,10 @@ function generateMarkdown(data) {
     return badges[badge];
   };
 
+  // Get selected badges and join them with line breaks 
+  const selectedBadges = data.badges.map(generateBadge).join('\n');
+  const badges = selectedBadges ? selectedBadges + '\n' : '';
+
   // Combine all sections into the final markdown
   return `
 # ${data.title}
