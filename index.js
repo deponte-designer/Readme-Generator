@@ -26,6 +26,15 @@ const questions = ([
 
 // function to write README file
 function writeToFile(fileName, data) {
+    const readme = generateMarkdown(data);
+
+    fs.writeFile(`./readme-sample-here/${fileName}`, readme, (err) => {
+        if (err) {
+            console.error(err);
+        } else {
+            console.log('Success! Your sample-README.md has been generated!');
+        }
+    });
 }
 
 // function to initialize program
