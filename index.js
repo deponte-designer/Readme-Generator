@@ -95,6 +95,34 @@ const questions = ([
             'Unlicense'
         ]
     },
+    {
+        type: "checkbox",
+        name: "badges",
+        message: "Select any desired badges.",
+        choices: [
+            'edX',
+            'Markdown',
+            'HTML5',
+            'CSS3',
+            'JavaScript',
+            'jQuery',
+            'Node.js',
+            'npm',
+            'React.js',
+            'React Native',
+            'Bootstrap',
+            'Windows 11',
+            'Figma',
+            'Slack',
+            'Google Chrome',
+            'Visual Studio Code',
+            'Git',
+            'GitHub',
+            'Github Pages',
+            'GitLab',
+            'Netlify'
+        ]
+    },
 
 
 ]);
