@@ -20,6 +20,46 @@ const questions = ([
         name: "userStory",
         message: "Summarise the user story."
     },
+    {
+        type: "input",
+        name: "installation",
+        message: "How can users install your project?"
+    },
+    {
+        type: "input",
+        name: "screenshots",
+        message: "Are you including project screenshots?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "How can users use your project?"
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Any credits or acknowledgments to include?"
+    },
+    {
+        type: "input",
+        name: "deployment",
+        message: "What's your deployed project GitHub Repository link?"
+    },
+    {
+        type: "input",
+        name: "contribute",
+        message: "Steps for contributing?"
+    },
+    {
+        type: "input",
+        name: "contributions",
+        message: "Who contributed to this project?"
+    },
+    {
+        type: "input",
+        name: "starred",
+        message: "How can users show their support through a starred project?"
+    },
 
 
 ]);
