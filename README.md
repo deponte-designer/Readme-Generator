@@ -19,7 +19,9 @@ This project is a professional README generator designed to streamline the proce
 - [Badges](#badges)
 
 ## User Story
-As A developer, I WANT a tool that can quickly generate a well-structured README for my GitHub projects, SO THAT this tool allow me to input project details and preferences, and it should generate a README file that includes important sections like installation, usage, contribution guidelines, and licensing information.
+As A developer, 
+<br> I WANT a tool that can quickly generate a well-structured README for my GitHub projects, 
+<br> SO THAT this tool allow me to input project details and preferences, and it should generate a README file that includes important sections like installation, usage, contribution guidelines, and licensing information.
 
 ## Installation
 Users can install the project by cloning the repository from GitHub and running 'npm install' to install the required dependencies.
@@ -28,6 +30,8 @@ Users can install the project by cloning the repository from GitHub and running 
 Unfortunately, screenshots are not included in this project.
 
 ## Video
+
+A walkthrough video that demonstrates the functionality of the README generator: [Demo](https://drive.google.com/file/d/1HzDzS-Vo9k6ExBXWw-6eU2q1EfwJzyvO/view)
 
 
 ## Usage
@@ -55,9 +59,9 @@ Unfortunately, the command 'npm test' is currently not available for this projec
 ## Questions
 > For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer). 
 
+
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br> Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)
 
 
 ## Badges
