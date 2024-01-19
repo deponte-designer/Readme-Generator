@@ -54,7 +54,7 @@ Unfortunately, the command 'npm test' is currently not available for this projec
 > For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer). 
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br> Copyright (c) 2024 [dePonte](https://github.com/deponte-designer)
 
 ## Badges
 ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
