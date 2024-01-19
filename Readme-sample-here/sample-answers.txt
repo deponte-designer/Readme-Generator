@@ -1,0 +1,51 @@
+========== ANSWERS ==========
+(Copy and past one by one to each question.)
+
+? What's your project's title?
+Working with ES6 & Node.js: Professional README Generator
+
+? Briefly describe your project.
+This project is a professional README generator designed to streamline the process of creating comprehensive README files for your GitHub projects. It uses ES6 syntax and Node.js to automate the generation of README files with detailed information about your project.
+
+? Summarise the user story.
+As A developer, I WANT a tool that can quickly generate a well-structured README for my GitHub projects, SO THAT this tool allow me to input project details and preferences, and it should generate a README file that includes important sections like installation, usage, contribution guidelines, and licensing information.
+
+? How can users install your project?
+Users can install the project by cloning the repository from GitHub and running 'npm install' to install the required dependencies.
+
+? Are you including project screenshots?
+Unfortunately, screenshots are not included in this project.
+
+? How can users use your project?
+To use the README generator, run the command 'node index.js' in the terminal. Follow the prompts to provide information about your project, and the generator will create a README file based on your input.
+
+? Any credits or acknowledgments to include?
+*[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) *[Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+
+What's the link to your project's GitHub repository?
+? What's your deployed project GitHub Repository link?
+The project GitHub Repository link: [README Generator](https://github.com/deponte-designer/Readme-Generator)
+
+? Steps for contributing?
+To contribute to this project, follow these steps: 1. Fork the repository. 2. Create a new branch for your feature or bug fix. 3. Make your changes and submit a pull request.
+
+? Who contributed to this project?
+This project was developed by a single contributor [dePonte](https://github.com/deponte-designer).
+
+? How can users show their support through a starred project?
+Your support by clicking on the star icon located at the top right of the project page and adding it to your favourites list would be greatly appreciated!
+
+? How to test the project?
+Unfortunately, the command 'npm test' is currently not available for this project.
+
+? How can users reach you?
+For any questions or concerns about the project, you can reach me at [GitHub: dePonte](https://github.com/deponte-designer).
+
+? What's your GitHub username?
+deponte-designer
+
+? What's the project license? Choose one.
+(Select)
+
+? Select any desired badges.
+(select)
